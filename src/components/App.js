@@ -11,8 +11,11 @@ class App extends React.Component {
     return (
       <div className="app">
         <header className="header">
-          <h1 className="h1"><img className="laocoonte-logo" src={LogoTitle} alt=""/>Laocoonte Design</h1>
+          <div className="header-items">
+        <img className="laocoonte-logo" src={LogoTitle} alt=""/>
+        <h1 className="h1">Laocoonte Design</h1>
         <NavigationMenu/>
+        </div>
         </header>
         <main className="main">
           <BrowserRouter>

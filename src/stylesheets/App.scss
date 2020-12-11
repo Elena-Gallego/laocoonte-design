@@ -1,12 +1,18 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+.header-items {
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+}
 
 h1 {
   display: flex;
   margin-top: 10px;
-
-  .laocoonte-logo {
-    width: 7%;
-  }
+  justify-content: baseline;
+  font-weight: 200;
+}
+.laocoonte-logo {
+  width: 7%;
 }
