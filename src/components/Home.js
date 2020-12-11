@@ -4,7 +4,7 @@ import '../stylesheets/Home.scss';
 class Home extends React.Component {
   render() {
     return <div>
-      <h1 className="hello">Hola</h1>
+      <span className="hello">Hola</span>
     </div>;
   }
 }

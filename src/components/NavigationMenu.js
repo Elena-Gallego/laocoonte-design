@@ -7,7 +7,7 @@ class NavigationMenu extends React.Component {
     return (
      <nav className="navigation-menu">
        <ul className="menu-sections">
-    <li className="home"><img className="laocoonte-logo" src="../images/logo.png" alt=""/></li>
+    <li className="home"></li>
     <li className="about"><a href="/about">About</a></li>
     <li className="interiorism"><a href="/interiorismo">Interiorismo</a></li>
     <li className="events"><a href="/eventos">Eventos</a></li>

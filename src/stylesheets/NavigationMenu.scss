@@ -1,4 +1,14 @@
 // HOJA DE ESTILO PARA EL COMPONENTE MADRE
-.navigation-menu{
-    
+.navigation-menu {
+  width: 100vw;
+  height: auto;
+}
+.menu-sections {
+  margin-left: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  font-weight: 100;
+  font-size: 20px;
 }

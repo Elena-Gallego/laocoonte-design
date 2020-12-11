@@ -4,13 +4,15 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import '../stylesheets/reset.scss';
 import '../stylesheets/App.scss';
+import LogoTitle from "../images/logo.png";
 
 class App extends React.Component {
   render() {
     return (
       <div className="app">
         <header className="header">
-         <NavigationMenu/>
+          <h1 className="h1"><img className="laocoonte-logo" src={LogoTitle} alt=""/>Laocoonte Design</h1>
+        <NavigationMenu/>
         </header>
         <main className="main">
           <BrowserRouter>

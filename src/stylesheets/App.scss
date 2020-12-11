@@ -1,6 +1,12 @@
 body {
-  width: 100vw;
-  height: auto;
+  font-family: "Raleway", sans-serif;
 }
-.navigation-menu {
+
+h1 {
+  display: flex;
+  margin-top: 10px;
+
+  .laocoonte-logo {
+    width: 7%;
+  }
 }
