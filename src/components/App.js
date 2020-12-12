@@ -24,9 +24,7 @@ class App extends React.Component {
               exact
               path="/"
               render={() => (
-                <div className="home">
                   <Home/>
-                </div>
               )}
             />
             <Route
