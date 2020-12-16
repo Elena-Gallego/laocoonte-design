@@ -4,11 +4,20 @@
   height: auto;
 }
 .menu-sections {
-  margin-left: 30%;
   display: flex;
+  margin-bottom: 20px;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
+  justify-content: flex-end;
+  top: 10vh;
   font-weight: 200;
   font-size: 20px;
+}
+.menu-sections li {
+  margin: 25px;
+  transition: color ease 0.4s, font-size 0.8s ease, font-weight 0.4s;
+  &:hover {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+  }
 }

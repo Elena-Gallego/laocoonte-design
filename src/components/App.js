@@ -1,22 +1,16 @@
 import React from 'react';
-import NavigationMenu from './NavigationMenu';
+import Header from "./Header";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import '../stylesheets/reset.scss';
 import '../stylesheets/App.scss';
-import LogoTitle from "../images/logo.png";
+
 
 class App extends React.Component {
   render() {
     return (
-      <div className="app">
-        <header className="header">
-          <div className="header-items">
-        <img className="laocoonte-logo" src={LogoTitle} alt=""/>
-        <h1 className="h1">Laocoonte Design</h1>
-        <NavigationMenu/>
-        </div>
-        </header>
+    <div className="app">       
+          <Header/>
         <main className="main">
           <BrowserRouter>
           <Switch>
@@ -73,8 +67,12 @@ class App extends React.Component {
           </Switch>
           </BrowserRouter>
         </main>
-        <footer className="footer">Copyright</footer>
-      </div>
+      <footer className="footer">
+        <div className="copyright">Laocoonte Design © 2020 </div>
+        <div className="credits">Web developer: Elena Gallego </div>
+      </footer>
+
+    </div>
     );
   }
 }
