@@ -1,12 +1,12 @@
-.header-logo {
+.title-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 10px;
   padding-top: 20px;
   margin-left: 3%;
-  align-items: baseline;
+  align-items: center;
 }
-.header-logo .design {
+.title-wrapper .design {
   padding: 5px;
   font-weight: 600;
 }
@@ -19,7 +19,7 @@
 
   transition: color ease 0.4s, font-size 0.8s ease;
   &:hover {
-    color: blue;
+    color: black;
     font-size: 14px;
   }
 }

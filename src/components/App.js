@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./Header";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
+import Footer from "./Footer";
 import '../stylesheets/reset.scss';
 import '../stylesheets/App.scss';
 
@@ -52,12 +53,12 @@ class App extends React.Component {
                 <div className="eventos"></div>
               }}
             />*/}
-            <Route
+            {/*<Route
               path="/showroom"
               render={() => (
                 <div className="showroom"></div>
               )}
-            />
+              />*/}
             <Route
               path="/contacto"
               render={() => (
@@ -67,11 +68,7 @@ class App extends React.Component {
           </Switch>
           </BrowserRouter>
         </main>
-      <footer className="footer">
-        <div className="copyright">Laocoonte Design © 2020 </div>
-        <div className="credits">Web developer: Elena Gallego </div>
-      </footer>
-
+        <Footer/>
     </div>
     );
   }

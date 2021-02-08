@@ -13,7 +13,7 @@ function NavigationMenu({ open }) {
     <li className="about"><a href="/about">About</a></li>
     <li className="interiorism"><a href="/interiorismo">Interiorismo</a></li>
     <li className="events"><a href="/eventos">Eventos</a></li>
-    <li className="showroom"><a href="/showroom">Showroom</a></li>
+   {/* <li className="showroom"><a href="/showroom">Showroom</a></li>*/}
     <li className="contact"><a href="/contacto">Contacto</a></li>
   </ul>
 
