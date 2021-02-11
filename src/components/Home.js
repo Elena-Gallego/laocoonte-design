@@ -8,7 +8,7 @@ class Home extends React.Component {
     <div className="home">
       <div className="home-hero">
         <video className="hero-video" controls autoPlay>
-          <source src={HeroVideo} type="video/mp4">
+          <source url={HeroVideo} type="video/mp4">
           </source>
         </video>
       </div>
