@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/Home.scss';
-import HeroVideo from "../videos/hero-video-prueba.mp4";
+import HeroVideo from "../videos/video_prueba.mp4";
 
 class Home extends React.Component {
   render() {
