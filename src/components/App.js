@@ -10,7 +10,7 @@ import '../stylesheets/App.scss';
 class App extends React.Component {
   render() {
     return (
-    <div className="app">       
+    <div className="app">
           <Header/>
         <main className="main">
           <BrowserRouter>
@@ -40,25 +40,6 @@ class App extends React.Component {
                 <div className="eventos"></div>
               )}
             />
-            {/*<Route
-            exact
-              path="/proyectos"
-              render={(routerProps) => {
-                <div className="proyectos"></div>
-              }}
-            />
-            <Route
-              path="/proyectos/1"
-              render={(routerProps) => {
-                <div className="eventos"></div>
-              }}
-            />*/}
-            {/*<Route
-              path="/showroom"
-              render={() => (
-                <div className="showroom"></div>
-              )}
-              />*/}
             <Route
               path="/contacto"
               render={() => (

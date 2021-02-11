@@ -5,11 +5,16 @@
   flex-direction: column;
 
   .home-hero {
+    width: 100vw;
+    outline: 0;
+
     .hero-video {
+      display: block;
       margin-top: 20px;
       width: 100vw;
-      height: auto;
-      border-style: none;
+      height: 650px;
+      object-fit: cover;
+      outline: 0;
     }
   }
   /*.sections-wrapper {

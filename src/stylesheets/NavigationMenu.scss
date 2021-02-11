@@ -12,6 +12,11 @@
   align-items: center;
   font-weight: 200;
   font-size: 20px;
+  @media all and (min-width: 1200px) {
+    padding-top: 0px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 .menu-sections li {
   margin: 5px;
@@ -20,5 +25,8 @@
     color: black;
     font-size: 24px;
     font-weight: 600;
+  }
+  @media all and (min-width: 1200px) {
+    padding-right: 50px;
   }
 }
