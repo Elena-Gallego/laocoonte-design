@@ -17,31 +17,31 @@ class App extends React.Component {
           <Switch>
             <Route
               exact
-              path="/"
+              path={process.env.PUBLIC_URL + '/'}
               render={() => (
                   <Home/>
               )}
             />
             <Route
-              path="/about"
+              path={process.env.PUBLIC_URL + '/about'}
               render={() => (
                 <div className="about"></div>
               )}
             />
             <Route
-              path="/interiorismo"
+              path={process.env.PUBLIC_URL + '/interiorismo'}
               render={() => (
                 <div className="interiorismo"></div>
               )}
             />
             <Route
-              path="/eventos"
+              path={process.env.PUBLIC_URL + '/eventos'}
               render={() => (
                 <div className="eventos"></div>
               )}
             />
             <Route
-              path="/contacto"
+              path={process.env.PUBLIC_URL + '/contacto'}
               render={() => (
                 <div className="contacto"></div>
               )}
