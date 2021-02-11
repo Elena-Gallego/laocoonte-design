@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "./Header";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 import Home from "./Home";
 import Footer from "./Footer";
 import '../stylesheets/reset.scss';
@@ -13,35 +13,35 @@ class App extends React.Component {
     <div className="app">
           <Header/>
         <main className="main">
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route
               exact
-              path={process.env.PUBLIC_URL + '/'}
+              path= '/'
               render={() => (
                   <Home/>
               )}
             />
             <Route
-              path={process.env.PUBLIC_URL + '/about'}
+              path='/about'
               render={() => (
                 <div className="about"></div>
               )}
             />
             <Route
-              path={process.env.PUBLIC_URL + '/interiorismo'}
+              path= '/interiorismo'
               render={() => (
                 <div className="interiorismo"></div>
               )}
             />
             <Route
-              path={process.env.PUBLIC_URL + '/eventos'}
+              path='/eventos'
               render={() => (
                 <div className="eventos"></div>
               )}
             />
             <Route
-              path={process.env.PUBLIC_URL + '/contacto'}
+              path='/contacto'
               render={() => (
                 <div className="contacto"></div>
               )}
