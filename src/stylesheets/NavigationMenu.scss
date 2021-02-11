@@ -26,6 +26,9 @@
     font-size: 24px;
     font-weight: 600;
   }
+  @media all and (min-width: 768px) {
+    padding-bottom: 5px;
+  }
   @media all and (min-width: 1200px) {
     padding-right: 50px;
   }
