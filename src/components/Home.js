@@ -7,7 +7,7 @@ class Home extends React.Component {
     return (
     <div className="home">
       <div className="home-hero">
-        <video className="hero-video" controls autoPlay>
+        <video className="hero-video" controls autoPlay loop>
           <source src={HeroVideo} type="video/mp4">
           </source>
         </video>

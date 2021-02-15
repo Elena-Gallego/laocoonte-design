@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from "./Header";
+import About from "./About";
 import {HashRouter, Route, Switch} from "react-router-dom";
 import Home from "./Home";
 import Footer from "./Footer";
@@ -25,7 +26,7 @@ class App extends React.Component {
             <Route
               path='/about'
               render={() => (
-                <div className="about"></div>
+                <About/>
               )}
             />
             <Route
