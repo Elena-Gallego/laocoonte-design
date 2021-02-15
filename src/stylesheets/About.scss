@@ -1,10 +1,26 @@
+.about-title {
+  font-size: 20px;
+  padding: 20px;
+}
 .about-hero {
   width: 100vw;
   height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
 
   .biography-image {
     display: flex;
-    width: 200px;
+    width: 40%;
     height: auto;
+    justify-content: space-around;
+  }
+  .biography-text {
+    font-size: 10px;
+    font-weight: 100;
+    padding: 5px;
+    text-align: end;
   }
 }
