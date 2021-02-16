@@ -1,26 +1,61 @@
-.about-title {
-  font-size: 20px;
-  padding: 20px;
-}
-.about-hero {
+.about-wrapper {
   width: 100vw;
   height: auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  padding-left: 20px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-
-  .biography-image {
-    display: flex;
-    width: 40%;
-    height: auto;
+  @media all and (min-width: 1200px) {
+    flex-direction: row;
+    padding: 60px;
+    padding-bottom: 0px;
     justify-content: space-around;
+  }
+
+  .about-title {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+
+    @media all and (min-width: 768px) {
+      margin-top: 50px;
+      font-size: 30px;
+    }
+    @media all and (min-width: 1200px) {
+      margin-top: 0px;
+    }
   }
   .biography-text {
     font-size: 10px;
     font-weight: 100;
-    padding: 5px;
-    text-align: end;
+    padding: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    @media all and (min-width: 768px) {
+      font-size: 16px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+
+  .biography-image {
+    display: flex;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    @media all and (min-width: 768px) {
+      width: 63%;
+    }
+    @media all and (min-width: 1200px) {
+      flex-direction: row;
+      width: 35%;
+      margin-top: 0px;
+    }
   }
 }
