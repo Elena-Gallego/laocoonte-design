@@ -15,13 +15,16 @@
       height: 100%;
       object-fit: cover;
       outline: 0;
+      margin-bottom: 170px;
       @media all and (min-width: 7px) {
         margin-top: 55px;
+        margin-bottom: 200px;
       }
       @media all and (min-width: 1200px) {
         margin-top: 20px;
         width: 100vw;
         height: 650px;
+        margin-bottom: 40px;
       }
     }
   }
