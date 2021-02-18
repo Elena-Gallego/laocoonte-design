@@ -18,7 +18,7 @@ return (
             </p>
         </p>
         
-        <img className="biography-image" src={biographyimage} alt="Miguel Angel Acevedo"/>        
+        <img className="biography-image" src={biographyimage} alt="Miguel de Acevedo"/>        
     </div>
 </div>
 );

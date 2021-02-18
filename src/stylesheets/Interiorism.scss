@@ -1,0 +1,53 @@
+.interiorism-wrapper {
+  padding: 20px;
+  .interiorism-title {
+    font-size: 20px;
+    padding: 5px;
+  }
+  .interiorism-articles {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    font-size: 8px;
+    justify-content: center;
+    @media all and (min-width: 768px) {
+      font-size: 16px;
+      grid-gap: 20px;
+    }
+
+    article {
+      margin: 0px;
+      text-align: center;
+      padding: 5px;
+    }
+    a img {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+    }
+    h2 {
+      padding: 5px;
+      font-weight: lighter;
+    }
+  }
+}
+.bf-default-photo {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.ds-default-photo {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.ae-default-photo {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}

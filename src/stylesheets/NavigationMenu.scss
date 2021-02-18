@@ -2,6 +2,8 @@
 .navigation-menu {
   width: 100%;
   height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .menu-sections {
   padding-top: 25px;
@@ -14,7 +16,7 @@
   font-size: 15px;
   @media all and (min-width: 768px) {
     font-size: 20px;
-    padding-top: 15pxpx;
+    padding-top: 15px;
     justify-content: center;
   }
   @media all and (min-width: 1200px) {
@@ -24,11 +26,11 @@
   }
 }
 .menu-sections li {
-  margin: 5px;
+  padding: 5px;
   transition: color ease 0.4s, font-size 0.8s ease, font-weight 0.4s;
   &:hover {
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
   }
   @media all and (min-width: 768px) {
