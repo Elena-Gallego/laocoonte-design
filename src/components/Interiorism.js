@@ -12,17 +12,24 @@ class Interiorism extends React.Component {
         <div className="interiorism-wrapper">
             <h2 className="interiorism-title">Interiorismo</h2>
         <article className="interiorism-articles">
-            <a className="brava-fabrics-content" href="#section-brava-fabrics">
-                <img className="bf-default-photo" src={bfdefaultphoto} alt="brava-shop"></img>
-                <h2 className="bf-title">Brava Fabrics</h2>
-            </a>
-            <a className="domestico-shop-content"href="#section-domestico-shop">
-                <img className="ds-default-photo"src={dsdefaultphoto} alt="domestico-shop"></img>
-                <h2 className="ds-title">Domestico Shop</h2>
-            </a> <a className="aesop-content" href="#section-aesop">
-                <img className="ae-default-photo" src={aedefaultphoto} alt="aesop"></img>
-                <h2 className="ae-title">Aesop</h2>
-            </a>
+            <div className="brava-fabrics">
+                <a className="brava-fabrics-content" href="#section-brava-fabrics">
+                    <img className="bf-default-photo" src={bfdefaultphoto} alt="brava-shop"></img>
+                    <h2 className="bf-title">Brava Fabrics</h2>
+                </a>
+            </div>
+            <div className="domestico-shop">
+                <a className="domestico-shop-content" href="#section-domestico-shop">
+                    <img className="ds-default-photo"src={dsdefaultphoto} alt="domestico-shop"></img>
+                    <h2 className="ds-title">Domestico Shop</h2>
+                </a>
+            </div>
+            <div className="aesop">
+                <a className="aesop-content" href="#section-aesop">
+                    <img className="ae-default-photo" src={aedefaultphoto} alt="aesop"></img>
+                    <h2 className="ae-title">Aesop</h2>
+                </a>
+            </div>
         </article>
             <section id="section-brava-fabrics"className="section-brava-fabrics"></section>
             <section id="section-domestico-shop"className="section-domestico-shop"></section>
