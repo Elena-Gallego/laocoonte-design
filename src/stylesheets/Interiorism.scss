@@ -1,8 +1,18 @@
 .interiorism-wrapper {
   width: 100vw;
   height: auto;
-  padding-left: 0px;
-  padding-right: 30px;
+  margin: 0px;
+
+  @media all and (min-width: 768px) {
+    margin-bottom: 180px;
+    margin-top: 100px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-top: 0;
+    padding: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 
   .interiorism-title {
     text-align: center;
@@ -10,18 +20,19 @@
     padding: 5px;
     padding-bottom: 20px;
     text-transform: uppercase;
+    @media all and (min-width: 768px) {
+      margin-bottom: 30px;
+    }
     @media all and (min-width: 1200px) {
       text-align: start;
-      margin-left: 70px;
-      margin-top: 50px;
-      font-size: 30px;
-      margin-bottom: 30px;
+      font-size: 26px;
+      margin-bottom: 10px;
+      padding-bottom: 0;
     }
   }
   .interiorism-articles {
     width: 100%;
     height: 60%;
-    margin: 10px;
     text-align: center;
     padding: 0px;
     display: flex;
@@ -32,30 +43,34 @@
       flex-direction: row;
       margin-bottom: 50px;
     }
+    @media all and (min-width: 1200px) {
+      margin-bottom: 0;
+    }
 
     img {
-      width: 100px;
-      height: 120px;
+      width: 300px;
+      height: auto;
       @media all and (min-width: 768px) {
         width: 230px;
         height: 320px;
         margin: 10px;
       }
       @media all and (min-width: 1200px) {
-        width: 430px;
-        height: 450px;
-        margin: 20px;
+        width: 300px;
+        height: 400px;
+        margin: 40px;
       }
     }
 
     h2 {
       font-size: 14px;
-      padding: 5px;
+      padding: 15px;
       font-weight: 300;
       @media all and (min-width: 768px) {
         font-size: 16px;
         @media all and (min-width: 1200px) {
           font-size: 20px;
+          padding: 0;
         }
       }
     }
