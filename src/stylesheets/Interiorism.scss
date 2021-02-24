@@ -82,7 +82,130 @@
       }
     }
   }
-  .brava-fabrics-section-wrapper {
+  section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 2px #bcada2 solid;
+
+    h2 {
+      text-align: center;
+      padding-top: 20px;
+      font-weight: 300;
+    }
+
+    p {
+      margin: 30px;
+      margin-bottom: 10px;
+      grid-column: span 1;
+      height: auto;
+      padding: 20px;
+      color: white;
+      text-align: right;
+      line-height: 20px;
+      font-weight: 800;
+      font-size: 22px;
+      background-color: #bcada2;
+    }
+    span {
+      margin-left: 35px;
+      justify-content: left;
+      font-size: 12px;
+    }
+    .bf-description {
+      background-color: #9c91ae;
+    }
+    .ds-description {
+      background-color: #9c91ae;
+    }
+    .ae-description {
+      background-color: #9c91ae;
+    }
+  }
+  /*.brava-fabrics-section-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 2px #bcada2 solid;
+
+    h2 {
+      padding-top: 20px;
+      font-weight: 300;
+    }
+
+    .bf-description {
+      display: flex;
+      justify-content: space-between;
+      grid-column: span 1;
+      height: auto;
+      padding: 20px;
+      align-items: flex-start;
+      color: white;
+      text-align: right;
+      line-height: 20px;
+      font-weight: 800;
+      font-size: 22px;
+      background-color: #bcada2;
+    }*/
+
+  .brava-fabrics-container {
+    padding-top: 8%;
+    margin: 3%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(1);
+    grid-gap: 15px;
+    grid-auto-flow: row;
+    grid-auto-rows: 300px 300px;
+    .bf-item-1 {
+      grid-column: span 2;
+      background-image: url(../images/bfphoto1.jpeg);
+      background-position: center;
+      background-size: cover;
+    }
+    .bf-item-2 {
+      grid-column: span 2;
+      background-image: url(../images/bfphoto2.jpeg);
+      background-position: cover;
+      background-size: cover;
+    }
+    .bf-item-3 {
+      grid-column: span 2;
+      background-image: url(../images/bfphoto3.jpeg);
+      background-position: cover;
+      background-size: cover;
+    }
+    .bf-item-4 {
+      grid-column: span 2;
+      background-image: url(../images/bfphoto4.jpeg);
+      background-position: right;
+      background-size: cover;
+    }
+    .bf-item-5 {
+      grid-column: span 2;
+      background-image: url(../images/bfphoto5.jpeg);
+      background-position: right;
+      background-size: cover;
+    }
+    .bf-item-6 {
+      grid-column: span 2;
+      background-image: url(../images/bfphoto6.jpeg);
+      background-position: cover;
+      background-size: cover;
+    }
+  }
+  /*}*/
+
+  /*.domestico-shop-section-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px #bcada2 solid;
     width: 100vw;
     height: auto;
     display: flex;
@@ -93,65 +216,110 @@
       padding-top: 20px;
       font-weight: 300;
     }
-    .brava-fabrics-container {
-      padding-top: 8%;
-      margin: 3%;
-      justify-content: center;
-      display: grid;
-      grid-template-columns: repeat(1, 250px);
-      grid-template-rows: repeat(1);
-      grid-gap: 15px;
-      grid-auto-flow: row;
-      grid-auto-rows: 300px 300px;
+
+    .ds-description {
+      display: flex;
+      justify-content: space-between;
+      grid-column: span 1;
+      height: auto;
+      padding: 20px;
+      align-items: flex-start;
       color: white;
-      .bf-description {
-        grid-column: span 1;
-        height: auto;
-        color: black;
-        text-align: right;
-        font-weight: 800;
-        font-size: 24px;
-        border-bottom: 1px black solid;
-        .bf-date {
-          font-size: 12px;
-        }
-      }
-      .bf-item-1 {
-        grid-column: span 2;
-        background-image: url(../images/bfphoto1.jpeg);
-        background-position: center;
-        background-size: cover;
-      }
-      .bf-item-2 {
-        grid-column: span 2;
-        background-image: url(../images/bfphoto2.jpeg);
-        background-position: cover;
-        background-size: cover;
-      }
-      .bf-item-3 {
-        grid-column: span 2;
-        background-image: url(../images/bfphoto3.jpeg);
-        background-position: cover;
-        background-size: cover;
-      }
-      .bf-item-4 {
-        grid-column: span 2;
-        background-image: url(../images/bfphoto4.jpeg);
-        background-position: right;
-        background-size: cover;
-      }
-      .bf-item-5 {
-        grid-column: span 2;
-        background-image: url(../images/bfphoto5.jpeg);
-        background-position: right;
-        background-size: cover;
-      }
-      .bf-item-6 {
-        grid-column: span 2;
-        background-image: url(../images/bfphoto6.jpeg);
-        background-position: cover;
-        background-size: cover;
-      }
+      text-align: right;
+      line-height: 20px;
+      font-weight: 800;
+      font-size: 22px;
+      background-color: #bcada2;
+    }*/
+  .domestico-shop-container {
+    padding-top: 8%;
+    margin: 3%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(1);
+    grid-gap: 15px;
+    grid-auto-flow: row;
+    grid-auto-rows: 300px 300px;
+    .ds-item-1 {
+      grid-column: span 2;
+      background-image: url(../images/dsphoto1.jpeg);
+      background-position: center;
+      background-size: cover;
+    }
+    .ds-item-2 {
+      grid-column: span 2;
+      background-image: url(../images/dsphoto2.jpeg);
+      background-position: cover;
+      background-size: cover;
+    }
+    .ds-item-3 {
+      grid-column: span 2;
+      background-image: url(../images/dsphoto3.jpeg);
+      background-position: cover;
+      background-size: cover;
+    }
+    .ds-item-4 {
+      grid-column: span 2;
+      background-image: url(../images/dsphoto4.jpeg);
+      background-position: right;
+      background-size: cover;
+    }
+    .ds-item-5 {
+      grid-column: span 2;
+      background-image: url(../images/dsphoto5.jpeg);
+      background-position: right;
+      background-size: cover;
+    }
+    .ds-item-6 {
+      grid-column: span 2;
+      background-image: url(../images/dsphoto6.jpeg);
+      background-position: cover;
+      background-size: cover;
     }
   }
+  /*}
+  .aesop-section-wrapper {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 2px #bcada2 solid;
+
+    height: auto;
+
+    h2 {
+      padding-top: 20px;
+      font-weight: 300;
+    }
+
+    .ae-description {
+      display: flex;
+      justify-content: space-between;
+      grid-column: span 1;
+      height: auto;
+      padding: 20px;
+      align-items: flex-start;
+      color: white;
+      text-align: right;
+      line-height: 20px;
+      font-weight: 800;
+      font-size: 22px;
+      background-color: #bcada2;
+    }*/
+
+  .aesop-container {
+    padding-top: 8%;
+    margin: 3%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(1);
+    grid-gap: 15px;
+    grid-auto-flow: row;
+    grid-auto-rows: 300px 300px;
+  }
+  /*}*/
 }
