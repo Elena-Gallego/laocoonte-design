@@ -49,7 +49,7 @@ class Interiorism extends React.Component {
         </article>
             <section id="section-brava-fabrics"className="section-brava-fabrics" ref={this.brava}>
                 <div className="brava-fabrics-section-wrapper">
-                    <h2 className="brava-fabrics-section-title">Brava Fabrics</h2>
+                    <h2 className="brava-fabrics-section-title">Brava Fabrics Store</h2>
                     <ul className="brava-fabrics-container">
                             <p className="bf-description">El Mediterráneo y lo decó se alían para dar concepto a este espacio donde lo natural y lo sostenible es una constante en todos los procesos creativos y de producción. <span className="bf-date"> Madrid, 2020.</span></p>
                             
