@@ -70,8 +70,9 @@
     }
 
     h2 {
-      font-size: 14px;
+      font-size: 18px;
       padding: 15px;
+      padding-bottom: 25px;
       font-weight: 300;
       @media all and (min-width: 768px) {
         font-size: 16px;
@@ -91,15 +92,18 @@
     border-bottom: 2px #bcada2 solid;
 
     h2 {
+      margin-top: 10px;
+      margin: 30px;
       text-align: center;
+      text-transform: uppercase;
       padding-top: 20px;
-      font-weight: 300;
+      font-size: 22px;
+      font-weight: bolder;
     }
 
     p {
       margin: 30px;
-      margin-bottom: 10px;
-      grid-column: span 1;
+      margin-bottom: 5px;
       height: auto;
       padding: 20px;
       color: white;
@@ -113,15 +117,16 @@
       margin-left: 35px;
       justify-content: left;
       font-size: 12px;
+      font-weight: lighter;
     }
     .bf-description {
       background-color: #9c91ae;
     }
     .ds-description {
-      background-color: #9c91ae;
+      background-color: #b5c5a2;
     }
     .ae-description {
-      background-color: #9c91ae;
+      background-color: #ce8e30;
     }
   }
   /*.brava-fabrics-section-wrapper {
@@ -160,7 +165,7 @@
     display: grid;
     grid-template-columns: repeat(1, 250px);
     grid-template-rows: repeat(1);
-    grid-gap: 15px;
+    grid-gap: 20px;
     grid-auto-flow: row;
     grid-auto-rows: 300px 300px;
     .bf-item-1 {
@@ -238,42 +243,42 @@
     display: grid;
     grid-template-columns: repeat(1, 250px);
     grid-template-rows: repeat(1);
-    grid-gap: 15px;
+    grid-gap: 20px;
     grid-auto-flow: row;
     grid-auto-rows: 300px 300px;
     .ds-item-1 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto1.jpeg);
+      background-image: url(../images/dsphoto1.jpg);
       background-position: center;
       background-size: cover;
     }
     .ds-item-2 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto2.jpeg);
+      background-image: url(../images/dsphoto2.jpg);
       background-position: cover;
       background-size: cover;
     }
     .ds-item-3 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto3.jpeg);
+      background-image: url(../images/dsphoto3.jpg);
       background-position: cover;
       background-size: cover;
     }
     .ds-item-4 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto4.jpeg);
+      background-image: url(../images/dsphoto4.jpg);
       background-position: right;
       background-size: cover;
     }
     .ds-item-5 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto5.jpeg);
+      background-image: url(../images/dsphoto5.jpg);
       background-position: right;
       background-size: cover;
     }
     .ds-item-6 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto6.jpeg);
+      background-image: url(../images/dsphoto6.jpg);
       background-position: cover;
       background-size: cover;
     }
@@ -317,9 +322,34 @@
     display: grid;
     grid-template-columns: repeat(1, 250px);
     grid-template-rows: repeat(1);
-    grid-gap: 15px;
+    grid-gap: 20px;
     grid-auto-flow: row;
     grid-auto-rows: 300px 300px;
+
+    .ae-item-1 {
+      grid-column: span 2;
+      background-image: url(../images/aephoto1.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+    .ae-item-2 {
+      grid-column: span 2;
+      background-image: url(../images/aephoto2.jpg);
+      background-position: cover;
+      background-size: cover;
+    }
+    .ae-item-3 {
+      grid-column: span 2;
+      background-image: url(../images/aephoto3.jpg);
+      background-position: cover;
+      background-size: cover;
+    }
+    .ae-item-4 {
+      grid-column: span 2;
+      background-image: url(../images/aephoto4.jpg);
+      background-position: right;
+      background-size: cover;
+    }
   }
   /*}*/
 }

@@ -1,5 +1,5 @@
 
-import React, { createRef } from 'react';
+import React from 'react';
 import "../stylesheets/Interiorism.scss";
 import bfdefaultphoto from "../images/default-brava.jpg";
 import dsdefaultphoto from "../images/default-domestico.jpg";
@@ -98,9 +98,6 @@ class Interiorism extends React.Component {
                                 <li className="ds-item-4"></li>
                                 <li className="ds-item-5"></li>
                                 <li className="ds-item-6"></li>
-                                <li className="ds-item-7"></li>
-                                <li className="ds-item-8"></li>
-                                <li className="ds-item-9"></li>
                             </ul>
                         </div>
                     </section>
