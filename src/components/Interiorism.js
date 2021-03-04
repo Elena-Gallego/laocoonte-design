@@ -71,10 +71,9 @@ class Interiorism extends React.Component {
                             </Link>
                         </div>
                     </article>
-                    <section id="section-brava-fabrics"className="section-brava-fabrics" ref={this.brava}>
-                        <div className="brava-fabrics-section-wrapper">
+                    <section id="section-brava-fabrics"className="section-brava-fabrics" ref={this.brava}>                       
                             <h2 className="brava-fabrics-section-title">Brava Fabrics Store</h2>
-                            <p className="bf-description">El Mediterráneo y lo decó se alían para dar concepto a este espacio donde lo natural y lo sostenible son la constante en todos los procesos creativos y de producción. </p>
+                            <p className="bf-description">El Mediterráneo y lo decó se alían para dar concepto a este espacio donde lo natural y lo sostenible son la constante tanto en procesos creativos como de producción. </p>
                             <span className="bf-date"> Madrid, 2020.</span>
                             <ul className="brava-fabrics-container">
                                 <li className="bf-item-1"></li>
@@ -84,12 +83,10 @@ class Interiorism extends React.Component {
                                 <li className="bf-item-5"></li>
                                 <li className="bf-item-6"></li>
                             </ul>
-                        </div>
                     </section>
                     <section id="section-domestico-shop"className="section-domestico-shop" ref={this.domestico}>
-                        <div className="domestico-shop-section-wrapper">
                             <h2 className="domestico-shop-section-title">Domestico Shop Store</h2>
-                            <p className="ds-description">La emoción de los materiales nobles, el estatus, el nuevo lujo italiano, la artesanía, los clásicos atemporales y el diseño honesto. </p>
+                            <p className="ds-description">La emoción de los materiales nobles, el estatus, el nuevo lujo italiano, la artesanía, clásicos atemporales y diseño honesto. </p>
                             <span className="ds-date"> Madrid, 2019.</span>
                             <ul className="domestico-shop-container">
                                 <li className="ds-item-1"></li>
@@ -99,25 +96,17 @@ class Interiorism extends React.Component {
                                 <li className="ds-item-5"></li>
                                 <li className="ds-item-6"></li>
                             </ul>
-                        </div>
                     </section>
                     <section id="section-aesop"className="section-aesop" ref={this.aesop}>
-                        <div className="aesop-section-wrapper">
                             <h2 className="aesop-section-title">Aesop</h2>
-                            <p className="ae-description">Proyecto corner comercial Aesop para Doméstico Shop.</p>
+                            <p className="ae-description">Proyecto corner comercial Aesop, para Doméstico Shop.</p>
                             <span className="ae-date"> Barcelona, 2019.</span>
                             <ul className="aesop-container">
                                 <li className="ae-item-1"></li>
                                 <li className="ae-item-2"></li>
                                 <li className="ae-item-3"></li>
                                 <li className="ae-item-4"></li>
-                                <li className="ae-item-5"></li>
-                                <li className="ae-item-6"></li>
-                                <li className="ae-item-7"></li>
-                                <li className="ae-item-8"></li>
-                                <li className="ae-item-9"></li>
                             </ul>
-                        </div>
                     </section>
                 </div>
             );

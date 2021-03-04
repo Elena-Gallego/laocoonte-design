@@ -1,25 +1,24 @@
-.interiorism-wrapper {
+.events-wrapper {
   width: 100vw;
   height: 100%;
-  margin: 0px;
+  padding: 47px;
 
   @media all and (min-width: 768px) {
-    margin-bottom: 150px;
     margin-top: 100px;
   }
 
   @media all and (min-width: 1200px) {
     margin-top: 0;
-    /*padding: 50px;*/
+    padding: 50px;
     margin-bottom: 0;
   }
 
-  .interiorism-title {
+  .events-title {
     border-top: 1px black solid;
     text-align: center;
     font-size: 20px;
     padding: 5px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     text-transform: uppercase;
     @media all and (min-width: 768px) {
@@ -29,19 +28,18 @@
       text-align: start;
       font-size: 26px;
       margin-bottom: 50px;
-      padding-top: 55px;
-      padding-left: 40px;
       padding-bottom: 0;
     }
   }
 
-  .interiorism-articles {
+  .events-articles {
     border-bottom: 1px black solid;
     width: 100%;
     height: 60%;
     text-align: center;
     padding: 0px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -50,8 +48,11 @@
       margin-bottom: 50px;
     }
     @media all and (min-width: 1200px) {
+      justify-content: baseline;
+      align-items: baseline;
       margin-bottom: 0;
     }
+
     .h2 {
       padding-bottom: 20px;
       @media all and (min-width: 768px) {
@@ -63,37 +64,101 @@
     }
 
     img {
-      width: 300px;
+      width: 240px;
       height: auto;
       @media all and (min-width: 768px) {
-        width: 230px;
-        height: 320px;
+        width: 340px;
+        height: auto;
         margin: 10px;
       }
       @media all and (min-width: 1200px) {
         width: 300px;
-        height: 400px;
+        height: auto;
         margin: 40px;
       }
     }
+    /*border-bottom: 1px black solid;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      margin-bottom: 50px;
+      height: auto;
+    }
+    @media all and (min-width: 1200px) {
+      margin-bottom: 0;
+    }*/
+
+    /*.usm-title {
+      padding-bottom: 20px;
+    }
+
+    .usm-default-photo {
+      width: 100%;
+      height: auto;
+      @media all and (min-width: 768px) {
+        width: 600px;
+        height: 390px;
+        margin: 10px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 1068px;
+        height: 690px;
+        margin: 40px;
+      }
+    }
+    .cba-default-photo {
+      width: 100%;
+      height: auto;
+      @media all and (min-width: 768px) {
+        width: 600px;
+        height: 400px;
+        margin: 10px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 1068px;
+        height: 690px;
+        margin: 40px;
+      }
+    }
+    .interi-default-photo {
+      width: 100%;
+      height: auto;
+      @media all and (min-width: 768px) {
+        width: 600px;
+        margin: 10px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 1068px;
+        margin: 40px;
+      }
+    }*/
 
     h2 {
       font-size: 18px;
       padding: 15px;
       padding-bottom: 25px;
       font-weight: 300;
-
       @media all and (min-width: 768px) {
         font-size: 16px;
-      }
-
-      @media all and (min-width: 1200px) {
-        font-size: 20px;
-        padding: 0;
-        margin-bottom: 50px;
+        @media all and (min-width: 1200px) {
+          font-size: 20px;
+          padding: 0;
+        }
       }
     }
+    .interi-title {
+      margin-bottom: 40px;
+    }
   }
+
   section {
     width: 100%;
     height: auto;
@@ -167,14 +232,14 @@
         font-size: 18px;
       }
     }
-    .bf-description {
-      background-color: #9c91ae;
+    .usm-description {
+      background-color: #a39a91;
     }
-    .ds-description {
-      background-color: #b5c5a2;
+    .cba-description {
+      background-color: #f39f78;
     }
-    .ae-description {
-      background-color: #ce8e30;
+    .interi-description {
+      background-color: #d18089;
     }
   }
 
@@ -192,7 +257,7 @@
       font-size: 22px;
     }*/
 
-  .brava-fabrics-container {
+  .usm-container {
     padding-top: 8%;
     margin: 3%;
     justify-content: center;
@@ -205,56 +270,41 @@
 
     @media all and (min-width: 768px) {
       padding-top: 4%;
-      justify-content: center;
+      justify-content: space-between;
       grid-template-columns: repeat(2, 28%);
       grid-template-rows: repeat(2);
       grid-auto-rows: 400px 350px;
     }
 
     @media all and (min-width: 1200px) {
-      padding-top: 3%;
       grid-auto-rows: 600px 600px;
+      grid-gap: 50px;
       grid-template-columns: repeat(2, 36%);
     }
 
-    .bf-item-1 {
+    .usm-item-1 {
       grid-column: span 2;
-      background-image: url(../images/bfphoto1.jpeg);
+      background-image: url(../images/usmphoto4.png);
       background-position: center;
       background-size: cover;
     }
-    .bf-item-2 {
+    .usm-item-2 {
       grid-column: span 2;
-      background-image: url(../images/bfphoto2.jpeg);
+      background-image: url(../images/usmphoto2.png);
       background-position: cover;
       background-size: cover;
     }
-    .bf-item-3 {
+    .usm-item-3 {
       grid-column: span 2;
-      background-image: url(../images/bfphoto3.jpeg);
+      background-image: url(../images/usmphoto3.png);
       background-position: cover;
       background-size: cover;
     }
-    .bf-item-4 {
+    .usm-item-4 {
       grid-column: span 2;
-      background-image: url(../images/bfphoto4.jpeg);
+      background-image: url(../images/usmphoto1.png);
       background-position: right;
       background-size: cover;
-    }
-    .bf-item-5 {
-      grid-column: span 2;
-      background-image: url(../images/bfphoto5.jpeg);
-      background-position: right;
-      background-size: cover;
-    }
-    .bf-item-6 {
-      grid-column: span 2;
-      background-image: url(../images/bfphoto6.jpeg);
-      background-position: cover;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center;
-      }
     }
   }
 
@@ -272,7 +322,7 @@
         font-size: 22px;
         background-color: #bcada2;
       }*/
-  .domestico-shop-container {
+  .cba-container {
     padding-top: 8%;
     margin: 3%;
     justify-content: center;
@@ -285,7 +335,7 @@
 
     @media all and (min-width: 768px) {
       padding-top: 4%;
-      justify-content: center;
+      justify-content: space-between;
       grid-template-columns: repeat(2, 28%);
       grid-template-rows: repeat(2);
       grid-auto-rows: 400px 350px;
@@ -293,54 +343,40 @@
 
     @media all and (min-width: 1200px) {
       grid-auto-rows: 600px 600px;
+      grid-gap: 50px;
       grid-template-columns: repeat(2, 36%);
     }
-    .ds-item-1 {
+    .cba-item-1 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto1.jpg);
-      background-position: center;
+      background-image: url(../images/cbaphoto1.JPG);
+      background-position: center top;
       background-size: cover;
     }
-    .ds-item-2 {
+    .cba-item-2 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto2.jpg);
+      background-image: url(../images/cbaphoto2.JPG);
       background-position: cover;
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: center;
       }
     }
-    .ds-item-3 {
+    .cba-item-3 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto3.jpg);
+      background-image: url(../images/cbaphoto3.JPG);
       background-position: cover;
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: center top;
       }
     }
-    .ds-item-4 {
+    .cba-item-4 {
       grid-column: span 2;
-      background-image: url(../images/dsphoto4.jpg);
+      background-image: url(../images/cbaphoto4.png);
       background-position: right;
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: top;
-      }
-    }
-    .ds-item-5 {
-      grid-column: span 2;
-      background-image: url(../images/dsphoto5.jpg);
-      background-position: right;
-      background-size: cover;
-    }
-    .ds-item-6 {
-      grid-column: span 2;
-      background-image: url(../images/dsphoto6.jpg);
-      background-position: cover;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center;
       }
     }
   }
@@ -360,7 +396,7 @@
         background-color: #bcada2;
       }*/
 
-  .aesop-container {
+  .interi-container {
     padding-top: 8%;
     margin: 3%;
     justify-content: center;
@@ -373,7 +409,7 @@
 
     @media all and (min-width: 768px) {
       padding-top: 4%;
-      justify-content: center;
+      justify-content: space-between;
       grid-template-columns: repeat(2, 28%);
       grid-template-rows: repeat(2);
       grid-auto-rows: 400px 350px;
@@ -381,40 +417,32 @@
 
     @media all and (min-width: 1200px) {
       grid-auto-rows: 600px 600px;
+      grid-gap: 50px;
       grid-template-columns: repeat(2, 36%);
     }
 
-    .ae-item-1 {
+    .interi-item-1 {
       grid-column: span 2;
-      background-image: url(../images/aephoto1.jpg);
+      background-image: url(../images/ihphoto1.png);
       background-position: center;
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: center;
       }
     }
-    .ae-item-2 {
+    .interi-item-2 {
       grid-column: span 2;
-      background-image: url(../images/aephoto2.jpg);
+      background-image: url(../images/ihphoto2.png);
       background-position: cover;
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: center;
       }
     }
-    .ae-item-3 {
+    .interi-item-3 {
       grid-column: span 2;
-      background-image: url(../images/aephoto3.jpg);
+      background-image: url(../images/ihphoto3.png);
       background-position: cover;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center left;
-      }
-    }
-    .ae-item-4 {
-      grid-column: span 2;
-      background-image: url(../images/aephoto4.jpg);
-      background-position: right;
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: center left;

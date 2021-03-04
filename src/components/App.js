@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./Header";
 import About from "./About";
 import Interiorism from "./Interiorism";
+import Events from "./Events";
 import {HashRouter, Route, Switch} from "react-router-dom";
 import Home from "./Home";
 import Footer from "./Footer";
@@ -39,7 +40,7 @@ class App extends React.Component {
             <Route
               path='/eventos'
               render={() => (
-                <div className="eventos"></div>
+                <Events/>
               )}
             />
             <Route
