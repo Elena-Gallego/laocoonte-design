@@ -58,7 +58,7 @@ class Events extends React.Component {
                     <div className="md-cba">
                         <Link onClick={this.handleScrollds} to= "#section-md-cba">
                             <img className="cba-default-photo"src={cbadefaultphoto} alt="md-cba"></img>
-                            <h2 className="cba-title">Mercado de Diseño. Círculo de Bellas Artes</h2>
+                            <h2 className="cba-title">Mercado de Diseño. CBA.</h2>
                         </Link>
                     </div>
                     <div className="interihotel">

@@ -3,6 +3,7 @@ import Header from "./Header";
 import About from "./About";
 import Interiorism from "./Interiorism";
 import Events from "./Events";
+import Contact from "./Contact";
 import {HashRouter, Route, Switch} from "react-router-dom";
 import Home from "./Home";
 import Footer from "./Footer";
@@ -34,7 +35,7 @@ class App extends React.Component {
             <Route
               path= '/interiorismo'
               render={() => (
-                <Interiorism/>                
+                <Interiorism/>
               )}
             />
             <Route
@@ -46,10 +47,10 @@ class App extends React.Component {
             <Route
               path='/contacto'
               render={() => (
-                <div className="contacto"></div>
+                <Contact/>
               )}
             />
-          </Switch>          
+          </Switch>
         </main>
         <Footer/>
     </div>
