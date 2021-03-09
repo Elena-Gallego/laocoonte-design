@@ -4,7 +4,7 @@ import { ExternalLink } from 'react-external-link';
 
 class Contact extends React.Component {
     render() {
-      return (
+        return (
         <div className="contact">
             <div className="contact-wrapper">
                 <h2 className="contact-title">Contacto</h2>
@@ -15,12 +15,11 @@ class Contact extends React.Component {
                 <ul className="socialmedia">
                     <li className="instagram"> 
                         <ExternalLink href="https://www.instagram.com/laocoonte.design/?hl=es"/>
-                        
                     </li>
                 </ul>
             </div>
         </div>
-      );
+        );
     }
 }
 
