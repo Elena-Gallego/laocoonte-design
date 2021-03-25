@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.f4e4d41f.chunk.css",
-    "main.js": "./static/js/main.49cfa26e.chunk.js",
-    "main.js.map": "./static/js/main.49cfa26e.chunk.js.map",
+    "main.css": "./static/css/main.a1df6c6a.chunk.css",
+    "main.js": "./static/js/main.774dc502.chunk.js",
+    "main.js.map": "./static/js/main.774dc502.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8bb1f59a.js",
     "runtime-main.js.map": "./static/js/runtime-main.8bb1f59a.js.map",
-    "static/js/2.4471f9b3.chunk.js": "./static/js/2.4471f9b3.chunk.js",
-    "static/js/2.4471f9b3.chunk.js.map": "./static/js/2.4471f9b3.chunk.js.map",
+    "static/js/2.cde71436.chunk.js": "./static/js/2.cde71436.chunk.js",
+    "static/js/2.cde71436.chunk.js.map": "./static/js/2.cde71436.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.7c4c389865520ed027d281a519077013.js": "./precache-manifest.7c4c389865520ed027d281a519077013.js",
+    "precache-manifest.7f5f41a54fb652714533d6fef58b281f.js": "./precache-manifest.7f5f41a54fb652714533d6fef58b281f.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.f4e4d41f.chunk.css.map": "./static/css/main.f4e4d41f.chunk.css.map",
-    "static/js/2.4471f9b3.chunk.js.LICENSE.txt": "./static/js/2.4471f9b3.chunk.js.LICENSE.txt",
+    "static/css/main.a1df6c6a.chunk.css.map": "./static/css/main.a1df6c6a.chunk.css.map",
+    "static/js/2.cde71436.chunk.js.LICENSE.txt": "./static/js/2.cde71436.chunk.js.LICENSE.txt",
     "static/media/Interiorism.scss": "./static/media/dsphoto6.dd0d8ef0.jpg",
     "static/media/biography_image.jpg": "./static/media/biography_image.8b2ea861.jpg",
     "static/media/cbadefaultphoto.png": "./static/media/cbadefaultphoto.9a5d5da8.png",
-    "static/media/Events.scss": "./static/media/usmphoto4.1c73cf07.png",
-    "static/media/default-aesop.jpg": "./static/media/default-aesop.e3fa130e.jpg",
+    "static/media/Events.scss": "./static/media/usmphoto4.7edd7413.png",
     "static/media/default-brava.jpg": "./static/media/default-brava.e6acd189.jpg",
     "static/media/default-domestico.jpg": "./static/media/default-domestico.dd0d8ef0.jpg",
     "static/media/interidefaultphoto.png": "./static/media/interidefaultphoto.ac8db80d.png",
@@ -25,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8bb1f59a.js",
-    "static/js/2.4471f9b3.chunk.js",
-    "static/css/main.f4e4d41f.chunk.css",
-    "static/js/main.49cfa26e.chunk.js"
+    "static/js/2.cde71436.chunk.js",
+    "static/css/main.a1df6c6a.chunk.css",
+    "static/js/main.774dc502.chunk.js"
   ]
 }
