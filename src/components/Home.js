@@ -1,18 +1,17 @@
-import React from 'react';
-import '../stylesheets/Home.scss';
+import React from "react";
+import "../stylesheets/Home.scss";
 import HeroVideo from "../videos/video_prueba.mp4";
 
 class Home extends React.Component {
   render() {
     return (
-    <div className="home">
-      <div className="home-hero">
-        <video className="hero-video" autoPlay="autoplay" loop>
-          <source src={HeroVideo} type="video/mp4">
-          </source>
-        </video>
+      <div className="home">
+        <div className="home-hero">
+          <video className="hero-video" autoPlay="autoplay" loop>
+            <source src={HeroVideo} type="video/mp4"></source>
+          </video>
+        </div>
       </div>
-    </div>
     );
   }
 }

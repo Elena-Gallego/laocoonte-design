@@ -175,9 +175,6 @@
     .ds-description {
       background-color: #b5c5a2;
     }
-    .ae-description {
-      background-color: #ce8e30;
-    }
   }
 
   /*.bf-description {
@@ -343,83 +340,6 @@
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: center;
-      }
-    }
-  }
-
-  /*.ae-description {
-        display: flex;
-        justify-content: space-between;
-        grid-column: span 1;
-        height: auto;
-        padding: 20px;
-        align-items: flex-start;
-        color: white;
-        text-align: right;
-        line-height: 20px;
-        font-weight: 800;
-        font-size: 22px;
-        background-color: #bcada2;
-      }*/
-
-  .aesop-container {
-    padding-top: 8%;
-    margin: 3%;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(1, 250px);
-    grid-template-rows: repeat(1);
-    grid-gap: 20px;
-    grid-auto-flow: row;
-    grid-auto-rows: 300px 300px;
-
-    @media all and (min-width: 768px) {
-      padding-top: 4%;
-      justify-content: center;
-      grid-template-columns: repeat(2, 28%);
-      grid-template-rows: repeat(2);
-      grid-auto-rows: 400px 350px;
-    }
-
-    @media all and (min-width: 1200px) {
-      grid-auto-rows: 600px 600px;
-      grid-template-columns: repeat(2, 36%);
-    }
-
-    .ae-item-1 {
-      grid-column: span 2;
-      background-image: url(../images/aephoto1.jpg);
-      background-position: center;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center;
-      }
-    }
-    .ae-item-2 {
-      grid-column: span 2;
-      background-image: url(../images/aephoto2.jpg);
-      background-position: cover;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center;
-      }
-    }
-    .ae-item-3 {
-      grid-column: span 2;
-      background-image: url(../images/aephoto3.jpg);
-      background-position: cover;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center left;
-      }
-    }
-    .ae-item-4 {
-      grid-column: span 2;
-      background-image: url(../images/aephoto4.jpg);
-      background-position: right;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center left;
       }
     }
   }
