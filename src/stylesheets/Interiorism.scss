@@ -2,6 +2,7 @@
   width: 100vw;
   height: auto;
   padding: 47px;
+  padding-top: 10;
   margin: 0px;
 
   @media all and (min-width: 768px) {
@@ -11,7 +12,6 @@
 
   @media all and (min-width: 1200px) {
     margin-top: 0;
-    /*padding: 50px;*/
     margin-bottom: 0;
   }
 
@@ -24,9 +24,11 @@
     padding-top: 60px;
     padding-bottom: 20px;
     text-transform: uppercase;
+
     @media all and (min-width: 768px) {
       margin-bottom: 30px;
     }
+
     @media all and (min-width: 1200px) {
       text-align: start;
       font-size: 26px;
@@ -42,7 +44,7 @@
     width: 100%;
     height: 60%;
     text-align: center;
-    padding: 0px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,13 +68,15 @@
     }
 
     img {
-      width: 300px;
+      width: 240px;
       height: auto;
+
       @media all and (min-width: 768px) {
         width: 230px;
         height: 320px;
         margin: 10px;
       }
+
       @media all and (min-width: 1200px) {
         width: 300px;
         height: 400px;
@@ -102,14 +106,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding-bottom: 20px;
     border-bottom: 1px black solid;
-    @media all and (min-width: 768px) {
-    }
-    @media all and (min-width: 1200px) {
-      padding-bottom: 220px;
-    }
 
     h2 {
       margin-top: 10px;
@@ -130,16 +128,16 @@
     }
 
     p {
-      margin: 0px;
+      margin: 0;
       margin-bottom: 5px;
       height: auto;
       padding: 20px;
       color: white;
       text-align: right;
-      line-height: 20px;
       font-weight: 800;
       font-size: 22px;
-      background-color: #bcada2;
+      line-height: normal;
+
       @media all and (min-width: 768px) {
         width: 100%;
         display: flex;
@@ -150,11 +148,10 @@
       @media all and (min-width: 1200px) {
         font-size: 24px;
         text-transform: uppercase;
-        line-height: 45px;
       }
     }
     span {
-      margin-left: 35px;
+      margin: 5px;
       justify-content: left;
       font-size: 12px;
       font-weight: lighter;
@@ -178,169 +175,94 @@
     }
   }
 
-  /*.bf-description {
-      display: flex;
-      justify-content: space-between;
-      grid-column: span 1;
-      height: auto;
-      padding: 20px;
-      align-items: flex-start;
-      color: white;
-      text-align: right;
-      line-height: 20px;
-      font-weight: 800;
-      font-size: 22px;
-    }*/
-
   .brava-fabrics-container {
     padding-top: 8%;
     margin: 3%;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(1, 250px);
+    grid-template-columns: repeat(1, 260px);
     grid-template-rows: repeat(1);
     grid-gap: 20px;
     grid-auto-flow: row;
-    grid-auto-rows: 300px 300px;
+    grid-auto-rows: 400px;
 
     @media all and (min-width: 768px) {
       padding-top: 4%;
-      justify-content: center;
-      grid-template-columns: repeat(2, 28%);
-      grid-template-rows: repeat(2);
-      grid-auto-rows: 400px 350px;
+      grid-template-columns: repeat(1, 415px);
+      grid-auto-rows: 600px;
     }
 
     @media all and (min-width: 1200px) {
-      padding-top: 3%;
-      grid-auto-rows: 600px 600px;
-      grid-template-columns: repeat(2, 36%);
+      grid-template-rows: repeat(1);
+      grid-auto-rows: 600px;
+      grid-template-columns: repeat(3, 350px);
     }
 
     .bf-item-1 {
-      grid-column: span 2;
+      grid-column: span 1;
       background-image: url(../images/bfphoto1.jpeg);
       background-position: center;
       background-size: cover;
     }
     .bf-item-2 {
-      grid-column: span 2;
+      grid-column: span 1;
       background-image: url(../images/bfphoto2.jpeg);
       background-position: cover;
       background-size: cover;
     }
     .bf-item-3 {
-      grid-column: span 2;
+      grid-column: span 1;
       background-image: url(../images/bfphoto3.jpeg);
       background-position: cover;
       background-size: cover;
     }
-    .bf-item-4 {
-      grid-column: span 2;
-      background-image: url(../images/bfphoto4.jpeg);
-      background-position: right;
-      background-size: cover;
-    }
-    .bf-item-5 {
-      grid-column: span 2;
-      background-image: url(../images/bfphoto5.jpeg);
-      background-position: right;
-      background-size: cover;
-    }
-    .bf-item-6 {
-      grid-column: span 2;
-      background-image: url(../images/bfphoto6.jpeg);
-      background-position: cover;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center;
-      }
-    }
   }
 
-  /*.ds-description {
-        display: flex;
-        justify-content: space-between;
-        grid-column: span 1;
-        height: auto;
-        padding: 20px;
-        align-items: flex-start;
-        color: white;
-        text-align: right;
-        line-height: 20px;
-        font-weight: 800;
-        font-size: 22px;
-        background-color: #bcada2;
-      }*/
   .domestico-shop-container {
     padding-top: 8%;
     margin: 3%;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(1, 250px);
+    grid-template-columns: repeat(1, 260px);
     grid-template-rows: repeat(1);
     grid-gap: 20px;
     grid-auto-flow: row;
-    grid-auto-rows: 300px 300px;
+    grid-auto-rows: 400px;
 
     @media all and (min-width: 768px) {
       padding-top: 4%;
-      justify-content: center;
-      grid-template-columns: repeat(2, 28%);
-      grid-template-rows: repeat(2);
-      grid-auto-rows: 400px 350px;
+      grid-template-columns: repeat(1, 415px);
+      grid-auto-rows: 600px;
     }
 
     @media all and (min-width: 1200px) {
-      grid-auto-rows: 600px 600px;
-      grid-template-columns: repeat(2, 36%);
+      grid-template-rows: repeat(1);
+      grid-auto-rows: 600px;
+      grid-template-columns: repeat(3, 350px);
     }
+
     .ds-item-1 {
-      grid-column: span 2;
+      grid-column: span 1;
       background-image: url(../images/dsphoto1.jpg);
-      background-position: center;
+      background-position: center left;
       background-size: cover;
     }
     .ds-item-2 {
-      grid-column: span 2;
+      grid-column: span 1;
       background-image: url(../images/dsphoto2.jpg);
-      background-position: cover;
+      background-position: center left;
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: center;
       }
     }
     .ds-item-3 {
-      grid-column: span 2;
+      grid-column: span 1;
       background-image: url(../images/dsphoto3.jpg);
-      background-position: cover;
+      background-position: center;
       background-size: cover;
       @media all and (min-width: 768px) {
         background-position: center top;
-      }
-    }
-    .ds-item-4 {
-      grid-column: span 2;
-      background-image: url(../images/dsphoto4.jpg);
-      background-position: right;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: top;
-      }
-    }
-    .ds-item-5 {
-      grid-column: span 2;
-      background-image: url(../images/dsphoto5.jpg);
-      background-position: right;
-      background-size: cover;
-    }
-    .ds-item-6 {
-      grid-column: span 2;
-      background-image: url(../images/dsphoto6.jpg);
-      background-position: cover;
-      background-size: cover;
-      @media all and (min-width: 768px) {
-        background-position: center;
       }
     }
   }

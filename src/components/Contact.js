@@ -8,7 +8,10 @@ class Contact extends React.Component {
     return (
       <div className="contact">
         <div className="contact-wrapper">
-          <h2 className="contact-title">Contacto</h2>
+          <h2 className="contact-title">
+            Contacto<h3 className="get-in-touch">Get in touch</h3>
+          </h2>
+
           <ul className="contact-list">
             <li className="phone-number"></li>
             <li className="email">

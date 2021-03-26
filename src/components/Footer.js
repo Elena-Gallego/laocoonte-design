@@ -1,20 +1,26 @@
-import React from 'react';
-import '../stylesheets/Footer.scss';
+import React from "react";
+import "../stylesheets/Footer.scss";
 
 class Footer extends React.Component {
-render() {
-return (
-    <footer className="footer">
-        <div className="footer-wrapper">
-            <span className="copyright">Laocoonte Design © 2021</span>
-            <span className="rights-footer"> All rights reserved</span>
-            <span className="credits">Web developer: Elena Gallego </span>
-        </div>
-    </footer>
-
+  render() {
+    return (
+      <footer className="footer">
+        <ul className="footer-wrapper">
+          <li className="copyright">Laocoonte Design © 2021</li>
+          <li className="rights-footer"> All rights reserved</li>
+          <li className="credits">
+            <a
+              className="elena-linkedIn"
+              href="https://www.linkedin.com/in/elena-gallego-front/"
+            >
+              {" "}
+              Web developer: Elena Gallego
+            </a>
+          </li>
+        </ul>
+      </footer>
     );
-    }
+  }
 }
-
 
 export default Footer;

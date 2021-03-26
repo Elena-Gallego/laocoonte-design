@@ -73,9 +73,6 @@ class Interiorism extends React.Component {
             <li className="bf-item-1"></li>
             <li className="bf-item-2"></li>
             <li className="bf-item-3"></li>
-            <li className="bf-item-4"></li>
-            <li className="bf-item-5"></li>
-            <li className="bf-item-6"></li>
           </ul>
         </section>
         <section
@@ -93,9 +90,6 @@ class Interiorism extends React.Component {
             <li className="ds-item-1"></li>
             <li className="ds-item-2"></li>
             <li className="ds-item-3"></li>
-            <li className="ds-item-4"></li>
-            <li className="ds-item-5"></li>
-            <li className="ds-item-6"></li>
           </ul>
         </section>
       </div>
