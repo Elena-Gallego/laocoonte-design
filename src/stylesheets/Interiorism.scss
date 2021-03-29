@@ -70,6 +70,9 @@
     img {
       width: 240px;
       height: auto;
+      &:hover {
+        opacity: 0.7;
+      }
 
       @media all and (min-width: 768px) {
         width: 230px;
@@ -182,7 +185,7 @@
     display: grid;
     grid-template-columns: repeat(1, 260px);
     grid-template-rows: repeat(1);
-    grid-gap: 20px;
+    grid-gap: 40px;
     grid-auto-flow: row;
     grid-auto-rows: 400px;
 
@@ -207,13 +210,13 @@
     .bf-item-2 {
       grid-column: span 1;
       background-image: url(../images/bfphoto2.jpeg);
-      background-position: cover;
+      background-position: center right;
       background-size: cover;
     }
     .bf-item-3 {
       grid-column: span 1;
       background-image: url(../images/bfphoto3.jpeg);
-      background-position: cover;
+      background-position: center;
       background-size: cover;
     }
   }
@@ -225,7 +228,7 @@
     display: grid;
     grid-template-columns: repeat(1, 260px);
     grid-template-rows: repeat(1);
-    grid-gap: 20px;
+    grid-gap: 40px;
     grid-auto-flow: row;
     grid-auto-rows: 400px;
 

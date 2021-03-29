@@ -57,7 +57,7 @@ class Events extends React.Component {
               <h2 className="usm-title">Homework by USM</h2>
             </Link>
           </div>
-          <div className="md-cba">
+          <div className="cba-event">
             <Link onClick={this.handleScrollcba} to="#section-cba">
               <img
                 className="cba-default-photo"
@@ -67,7 +67,7 @@ class Events extends React.Component {
               <h2 className="cba-title">Mercado de Diseño. CBA.</h2>
             </Link>
           </div>
-          <div className="interihotel">
+          <div className="interi-event">
             <Link onClick={this.handleScrollinteri} to="#section-interihotel">
               <img
                 className="interi-default-photo"
@@ -90,9 +90,6 @@ class Events extends React.Component {
           <span className="usm-date"> Madrid, 2019.</span>
           <ul className="usm-container">
             <li className="usm-item-1"></li>
-            <li className="usm-item-2"></li>
-            <li className="usm-item-3"></li>
-            <li className="usm-item-4"></li>
           </ul>
         </section>
         <section id="section-cba" className="section-cba" ref={this.cba}>
@@ -108,7 +105,6 @@ class Events extends React.Component {
             <li className="cba-item-1"></li>
             <li className="cba-item-2"></li>
             <li className="cba-item-3"></li>
-            <li className="cba-item-4"></li>
           </ul>
         </section>
         <section

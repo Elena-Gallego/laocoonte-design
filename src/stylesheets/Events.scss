@@ -1,5 +1,7 @@
 .events-wrapper {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
   height: auto;
   padding: 47px;
   margin: 0px;
@@ -30,6 +32,7 @@
 
     @media all and (min-width: 1200px) {
       text-align: start;
+      display: block;
       font-size: 26px;
       margin-bottom: 15px;
       padding-top: 55px;
@@ -37,6 +40,8 @@
       padding-bottom: 0;
     }
   }
+
+  /*ARTICLES*/
 
   .events-articles {
     border-bottom: 1px black solid;
@@ -49,23 +54,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     @media all and (min-width: 768px) {
       flex-direction: row;
       margin-bottom: 50px;
     }
     @media all and (min-width: 1200px) {
-      justify-content: baseline;
-      align-items: baseline;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: -1px 100px 100px 100px 100px 100px 100px 100px 100px;
+      grid-gap: 35px;
       margin-bottom: 0;
-    }
-
-    .h2 {
-      padding-bottom: 20px;
-      @media all and (min-width: 768px) {
-        padding-bottom: 0;
+      .usm-event {
+        grid-column: 2/ 7;
+        grid-row: 2/5;
+        img {
+          width: 100%;
+        }
       }
-      @media all and (min-width: 1200px) {
-        margin-bottom: 0px;
+      .cba-event {
+        grid-column: 7/11;
+        grid-row: 1/6;
+        img {
+          width: 100%;
+        }
+      }
+      .interi-event {
+        grid-column: 2 /11;
+        grid-row: 6/8;
+        img {
+          width: 100%;
+        }
       }
     }
 
@@ -73,6 +92,9 @@
       width: 240px;
       height: auto;
       overflow: hidden;
+      &:hover {
+        opacity: 0.7;
+      }
 
       @media all and (min-width: 768px) {
         width: 340px;
@@ -81,9 +103,9 @@
       }
 
       @media all and (min-width: 1200px) {
-        width: 360px;
+        /*width: 360px;*/
         height: auto;
-        margin: 40px;
+        margin: inherit;
       }
     }
 
@@ -91,6 +113,7 @@
       font-size: 18px;
       padding: 15px;
       padding-bottom: 25px;
+
       font-weight: 300;
 
       @media all and (min-width: 768px) {
@@ -100,25 +123,27 @@
       @media all and (min-width: 1200px) {
         font-size: 20px;
         padding: 0;
+        margin-top: 50px;
       }
     }
     .interi-title {
-      margin-bottom: 40px;
+      margin-bottom: 80px;
     }
   }
+
+  /*SECTION*/
 
   section {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-
     padding-bottom: 20px;
     border-bottom: 1px black solid;
     @media all and (min-width: 768px) {
     }
     @media all and (min-width: 1200px) {
-      padding-bottom: 220px;
+      padding-bottom: 80px;
       flex-wrap: wrap;
     }
 
@@ -180,12 +205,15 @@
         font-size: 18px;
       }
     }
+
     .usm-description {
       background-color: #a39a91;
     }
+
     .cba-description {
       background-color: #f39f78;
     }
+
     .interi-description {
       background-color: #d18089;
     }
@@ -210,7 +238,7 @@
     }
 
     @media all and (min-width: 1200px) {
-      grid-auto-rows: 600px 600px;
+      grid-auto-rows: 535px 600px;
       padding-top: 3%;
       grid-template-columns: repeat(2, 36%);
     }
@@ -221,22 +249,11 @@
       background-position: center;
       background-size: cover;
     }
+
     .usm-item-2 {
       grid-column: span 2;
       background-image: url(../images/usmphoto2.png);
       background-position: cover;
-      background-size: cover;
-    }
-    .usm-item-3 {
-      grid-column: span 2;
-      background-image: url(../images/usmphoto3.png);
-      background-position: cover;
-      background-size: cover;
-    }
-    .usm-item-4 {
-      grid-column: span 2;
-      background-image: url(../images/usmphoto1.png);
-      background-position: right;
       background-size: cover;
     }
   }
@@ -261,16 +278,18 @@
     }
 
     @media all and (min-width: 1200px) {
-      grid-auto-rows: 600px 600px;
+      grid-auto-rows: 600px 700px;
       grid-gap: 50px;
       grid-template-columns: repeat(2, 36%);
     }
+
     .cba-item-1 {
       grid-column: span 2;
       background-image: url(../images/cbaphoto1.JPG);
       background-position: center top;
       background-size: cover;
     }
+
     .cba-item-2 {
       grid-column: span 2;
       background-image: url(../images/cbaphoto2.JPG);
@@ -280,6 +299,7 @@
         background-position: center;
       }
     }
+
     .cba-item-3 {
       grid-column: span 2;
       background-image: url(../images/cbaphoto3.JPG);
@@ -289,6 +309,7 @@
         background-position: center top;
       }
     }
+
     .cba-item-4 {
       grid-column: span 2;
       background-image: url(../images/cbaphoto4.png);
@@ -320,7 +341,7 @@
     }
 
     @media all and (min-width: 1200px) {
-      grid-auto-rows: 600px 600px;
+      grid-auto-rows: 388px 420px;
       grid-gap: 50px;
       grid-template-columns: repeat(2, 36%);
     }
