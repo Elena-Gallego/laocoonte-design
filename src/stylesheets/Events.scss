@@ -60,6 +60,7 @@
       margin-bottom: 50px;
     }
     @media all and (min-width: 1200px) {
+      padding: 60px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: -1px 100px 100px 100px 100px 100px 100px 100px 100px;
@@ -92,8 +93,10 @@
       width: 240px;
       height: auto;
       overflow: hidden;
+      opacity: 1;
+
       &:hover {
-        opacity: 0.7;
+        opacity: 0.6;
       }
 
       @media all and (min-width: 768px) {
@@ -113,7 +116,6 @@
       font-size: 18px;
       padding: 15px;
       padding-bottom: 25px;
-
       font-weight: 300;
 
       @media all and (min-width: 768px) {
@@ -123,7 +125,8 @@
       @media all and (min-width: 1200px) {
         font-size: 20px;
         padding: 0;
-        margin-top: 50px;
+        margin-top: 20px;
+        padding-bottom: 0spx;
       }
     }
     .interi-title {
@@ -278,7 +281,7 @@
     }
 
     @media all and (min-width: 1200px) {
-      grid-auto-rows: 600px 700px;
+      grid-auto-rows: 600px 850px;
       grid-gap: 50px;
       grid-template-columns: repeat(2, 36%);
     }
